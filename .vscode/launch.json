@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "example-agora",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define=TEST_APP_ID=2fdf796b59b848d29e8643fa14384e7d",
+                "--dart-define=TEST_TOKEN=007eJxTYPjYOMk/8PhNFu6+8MrdfBw3Zve46NjqHw5W3/nSc3eJ5UwFBqO0lDRzS7MkU8skCxOLFCPLVAszE+O0REMTYwuTVPMUMZ916Q2BjAzHFJNYGBkgEMTnYPBJTcwrTyxKZWAAAF7NHxw=",
+                "--dart-define=TEST_CHANNEL_ID=Leanware"
+            ]
+        },
+        {
+            "name": "example-agora (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "example-agora (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
